@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Hey";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Funzia</p>
+<table>
+    @{
+        for (int x = 0; x < 10; x++)
+        {
+            <tr>
+                <td>@x</td>
+            </tr>
+        }
+    }
+</table>
